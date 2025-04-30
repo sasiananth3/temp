@@ -1,0 +1,59 @@
+div ul {
+    display: flex;
+}
+ul li {
+    list-style-type: none;
+    padding-right: 30px;
+    
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body nav{
+    background-color: blue;
+    margin:0;
+}
+img{
+    height: 100px;
+    width: auto;
+    padding-left: 10px;
+    padding-top: 5px;
+    border-radius: 200px;
+}
+*
+{
+    margin: 0;
+    border: 0;
+}
+.doun{
+    display:none;
+    position: absolute;
+    right:40px;
+    background-color: aliceblue;
+    
+    text-align: center;
+}
+.doun li:hover{
+    background-color:blue
+}
+ul li:nth-child(3):hover .doun{
+    display: block;
+}
+#Home{
+    position: relative;
+    top:500px;
+}
+#Home img{
+    height:500px;
+    width: 500px;
+    border-radius: 200px;
+    position: relative;
+    left:350px;
+}
